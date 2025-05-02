@@ -1,0 +1,16 @@
+@use "@/styles/variables.scss" as *;
+@use "./variables.scss" as *;
+
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+body {
+  font-family: $font-family-base;
+  margin: 0;
+}
+
+.hero {
+  background-color: $primary-color;
+}
+
